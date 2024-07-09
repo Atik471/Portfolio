@@ -35,6 +35,11 @@
     cursor: pointer;
 }
 
+.fa-solid{
+    margin-right: 24px;
+}
+
+
 /* Header bg */
 header{
     background-image: url(../images/developer.png);
@@ -87,7 +92,7 @@ nav li a {
 
 .banner-content{
     width: 585px;
-    margin: 100px 100px 85px 40px;
+    margin: 50px 100px 85px 40px;
 }
 
 .banner-title{
@@ -119,6 +124,12 @@ nav li a {
 
 .banner-content button{
     margin-right: 35px;
+}
+
+.banner .contact{
+    background-color: white;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
 }
 
 /* Main styles */
@@ -209,8 +220,8 @@ main{
     margin-top: 100px;
 }
 .resume .download-btn{
-    margin-top: 50px;
-    margin-bottom: 200px;
+    margin-top: 80px;
+    margin-bottom: 150px;
     text-align: center;
 }
 
