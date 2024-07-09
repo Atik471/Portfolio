@@ -43,6 +43,7 @@ header{
     height: 740px;
     padding-top: 50px;
     padding-bottom: 0px;
+    background-color: #FFF8F3;
 }
 
 
@@ -51,7 +52,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 130px 50px 160px;
+    margin: 0px 130px 50px 200px;
 }
 
 nav > ul > li{
@@ -86,7 +87,7 @@ nav li a {
 
 .banner-content{
     width: 585px;
-    margin: 100px 100px 85px 120px;
+    margin: 100px 100px 85px 40px;
 }
 
 .banner-title{
@@ -112,11 +113,43 @@ nav li a {
 
 .image-container img{
     width: 420px; 
-    margin-left:200px;
+    margin-left:230px;
     transform: scaleX(-1);
 }
 
 .banner-content button{
     margin-right: 35px;
+}
+
+/* Main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* About section */
+.about{
+
+    padding: 100px 150px;
+    text-align: center;
+    margin-top: 130px;
+    border-radius: 10px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+}
+.about-title{
+    margin-bottom: 30px;
+}
+.about > p{
+    margin-bottom: 30px;
+}
+.item-title{
+    margin-bottom: 5px;
 }
 
